@@ -1,13 +1,10 @@
 import json
-
 import requests
-import telebot
+import botaLortu
 import subprocess
 
-token = '1604019741:AAGnKUXr7g8iR5LSxboEesu_NP7T4F0N-7s' #Bot-aren token-a
 
-bot = telebot.TeleBot(token) #Bot-a lortu
-
+bot = botaLortu.getBot()
 chat_id = ""
 
 def ipLocation(ip):
